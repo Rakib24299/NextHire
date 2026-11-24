@@ -4,6 +4,8 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import { connectDB } from './config/db.js';
 import authRoutes from './routes/authRoutes.js';
+import jobRoutes from './routes/jobRoutes.js';
+import applicationRoutes from './routes/applicationRoutes.js';
 
 // Load environment variables (.env is at the server root)
 dotenv.config();
@@ -22,6 +24,12 @@ app.use(
   })
 );
 
+// Simple Request Logger
+app.use((req, res, next) => {
+  console.log(`📥 [${req.method}] ${req.originalUrl}`);
+  next();
+});
+
 // Health Check / Welcome Route
 app.get('/', (req, res) => {
   res.status(200).json({
@@ -34,6 +42,8 @@ app.get('/', (req, res) => {
 
 // API Routes
 app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/jobs', jobRoutes);
+app.use('/api/v1/applications', applicationRoutes);
 
 // 404 Route Handler
 app.use((req, res) => {
