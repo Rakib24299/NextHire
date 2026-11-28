@@ -1,7 +1,7 @@
 {
-  "name": "careerpulse-server",
+  "name": "nexthire-server",
   "version": "1.0.0",
-  "description": "Backend API for CareerPulse Job & Internship Portal",
+  "description": "Backend API for NextHire Job & Internship Portal",
   "main": "src/index.js",
   "type": "module",
   "scripts": {

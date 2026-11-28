@@ -1,6 +1,6 @@
 # Step-by-Step Implementation Roadmap (plan.md)
 
-## Project Title: CareerPulse — Full-Stack Job & Internship Portal
+## Project Title: NextHire — Full-Stack Job & Internship Portal
 
 This plan outlines the exact execution sequence to build, test, and deploy the application from scratch to a production-ready portfolio project.
 

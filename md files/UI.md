@@ -30,7 +30,7 @@
 ## 2. Global Components
 
 ### 2.1 Navigation Bar (`Navbar.jsx`)
-* **Left:** CareerPulse Logo + Brand Name with dynamic glowing dot.
+* **Left:** NextHire Logo + Brand Name with dynamic glowing dot.
 * **Center (Desktop):** Links $\rightarrow$ "Browse Jobs", "Internships", "Companies".
 * **Right (Dynamic by Auth State):**
   * *Guest:* "Login" (outline button) + "Register" (solid primary button)
@@ -58,7 +58,7 @@
   * Quick Search Bar: Inputs for `Job Title / Skill` + `Location` + `Search Jobs` button.
 * **Category Pill Grid:** Quick filter badges (Frontend, Backend, MERN Stack, UI/UX, QA, Internship).
 * **Featured Jobs Grid:** 6 latest high-priority job postings.
-* **Why CareerPulse Section:** 3 feature cards (Real-time tracking, Verified companies, One-click apply).
+* **Why NextHire Section:** 3 feature cards (Real-time tracking, Verified companies, One-click apply).
 * **Call to Action (CTA) Banner:** "Are you hiring? Post your opening in 2 minutes."
 
 ### 3.2 Job Explorer Page (`/jobs`)

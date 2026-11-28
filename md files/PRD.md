@@ -1,11 +1,11 @@
 # Product Requirements Document (PRD)
 
-## Project Title: CareerPulse — Full-Stack Job & Internship Portal
+## Project Title: NextHire — Full-Stack Job & Internship Portal
 
 ---
 
 ## 1. Executive Summary
-**CareerPulse** is a modern, full-stack web platform designed to bridge the gap between emerging talent (students, fresh graduates, early-career professionals) and hiring organizations (startups, tech companies, agencies). 
+**NextHire** is a modern, full-stack web platform designed to bridge the gap between emerging talent (students, fresh graduates, early-career professionals) and hiring organizations (startups, tech companies, agencies). 
 
 The platform provides a streamlined, transparent, and user-friendly experience for job discovery, resume submissions, and candidate evaluation.
 
@@ -39,7 +39,7 @@ The platform provides a streamlined, transparent, and user-friendly experience f
 ---
 
 ## 3. Core Problem Statement
-Traditional job boards are overly complex, non-transparent, and often hostile to entry-level talent. Freshers rarely receive status updates on their applications. CareerPulse solves this by offering a transparent applicant lifecycle, intuitive search/filtering, and role-based workspaces tailored for both candidates and recruiters.
+Traditional job boards are overly complex, non-transparent, and often hostile to entry-level talent. Freshers rarely receive status updates on their applications. NextHire solves this by offering a transparent applicant lifecycle, intuitive search/filtering, and role-based workspaces tailored for both candidates and recruiters.
 
 ---
 

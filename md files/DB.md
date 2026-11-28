@@ -1,6 +1,6 @@
 # Database Architecture & Schema Specification (DB.md)
 
-This document defines the data models, relations, field validations, and indexing strategies for the **CareerPulse** database using **MongoDB & Mongoose**.
+This document defines the data models, relations, field validations, and indexing strategies for the **NextHire** database using **MongoDB & Mongoose**.
 
 ---
 

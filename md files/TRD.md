@@ -2,7 +2,7 @@
 
 ## 1. System Architecture Overview
 
-CareerPulse is built as a decoupled Client-Server architecture utilizing RESTful APIs over HTTPS with secure token-based authentication.
+NextHire is built as a decoupled Client-Server architecture utilizing RESTful APIs over HTTPS with secure token-based authentication.
 
 ```
 ┌────────────────────────────────────────────────────────┐

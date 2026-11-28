@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* =============================================
+   NEXTHIRE — Global Font & Theme Configuration
+   ============================================= */
+
+/* Custom font variables */
+@theme {
+  --font-display: "Cinzel", Georgia, serif;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+  --font-brand: "Gruppo", sans-serif;
+}
+
+/* Base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-mono);
+    background-color: #0a0a0a;
+    color: #f0f0f0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Headings use Cinzel — elegant serif display font */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: 0.03em;
+  }
+
+  /* Links */
+  a {
+    text-decoration: none;
+  }
+
+  /* Code blocks stay mono */
+  code, pre, kbd, samp {
+    font-family: var(--font-mono);
+  }
+}

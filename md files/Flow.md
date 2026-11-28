@@ -1,6 +1,6 @@
 # User & System Flow Architecture
 
-This document maps out the operational workflows, user interactions, and state transitions across the **CareerPulse** portal.
+This document maps out the operational workflows, user interactions, and state transitions across the **NextHire** portal.
 
 ---
 

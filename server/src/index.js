@@ -34,7 +34,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.status(200).json({
     success: true,
-    message: '🚀 CareerPulse Backend API is running successfully!',
+    message: '🚀 NextHire Backend API is running successfully!',
     environment: process.env.NODE_ENV || 'development',
     timestamp: new Date().toISOString()
   });
